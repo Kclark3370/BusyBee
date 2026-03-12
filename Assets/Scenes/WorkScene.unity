@@ -237,6 +237,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   scoreText: {fileID: 178034673}
   highscoreText: {fileID: 850853263}
+  repeatRate: 1
+  startDelay: 1
 --- !u!1 &178034671
 GameObject:
   m_ObjectHideFlags: 0
