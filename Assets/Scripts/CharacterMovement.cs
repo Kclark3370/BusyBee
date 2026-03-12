@@ -7,7 +7,7 @@ public class Character : MonoBehaviour
     private Vector2 input;
     public float speed = 0.5f;
     public float turnSpeed = 1.0f;
-    public Transform target;
+    float driftFactor = 0.95f;
     private Rigidbody2D Rb;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -21,19 +21,19 @@ public class Character : MonoBehaviour
         input.x = Input.GetAxisRaw("Horizontal");
 
         input.Normalize();
-        target.transform.RotateAround(this.gameObject.transform.position, Vector3.forward,input.x*turnSpeed);
         
     }
 
     void FixedUpdate()
     {
-        Vector3 targetDirection = target.position - transform.position;
-
-        Debug.DrawRay(transform.position, targetDirection, Color.red);
-
-        transform.rotation = Quaternion.LookRotation(Vector3.forward,targetDirection);
-
         Rb.AddForce(transform.up * speed, ForceMode2D.Force);
+
+        Vector2 forwardVelocity = transform.up * Vector2.Dot(Rb.linearVelocity, transform.up);
+        Vector2 rightVelocity = transform.right * Vector2.Dot(Rb.linearVelocity, transform.right);
+
+        Rb.linearVelocity = forwardVelocity + rightVelocity * driftFactor;
+
+        Rb.rotation -= input.x * turnSpeed;
 
     }
 }
