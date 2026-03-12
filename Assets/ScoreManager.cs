@@ -1,6 +1,7 @@
 using System.Collections;
 using TMPro;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.UI;
 using UnityEngine.UIElements;
 
@@ -19,18 +20,15 @@ public class ScoreManager : MonoBehaviour
     {
         scoreText.text = score.ToString() + " POINTS";
         highscoreText.text = "HIGHSCORE: " + highscore.ToString();
-        InvokeRepeating(nameof(ScoreIncrease), startDelay, repeatRate);
     }
-
-    void ScoreIncrease()
-    {
-        score = score + 1;
-    }
-
 
     // Update is called once per frame
     void Update()
     {
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            score = score + 1;
+        }
         scoreText.text = score.ToString() + " POINTS";
         highscoreText.text = "HIGHSCORE: " + highscore.ToString();
     }
