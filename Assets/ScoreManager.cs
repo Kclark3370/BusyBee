@@ -31,6 +31,7 @@ public class ScoreManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        scoreText.text = score.ToString() + " POINTS";
+        highscoreText.text = "HIGHSCORE: " + highscore.ToString();
     }
 }
