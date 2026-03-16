@@ -1,11 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-<<<<<<< Updated upstream
-=======
-using UnityEditor;
-
->>>>>>> Stashed changes
 using Unity.VisualScripting;
 public class HealthBarScript : MonoBehaviour
 {
@@ -30,17 +25,6 @@ public class HealthBarScript : MonoBehaviour
         healthBarSlider.value = currHealth;
 
         currHealth = Mathf.Clamp(currHealth, 0, maxHealth);
-<<<<<<< Updated upstream
-=======
-
-        if (currHealth == 0)
-        {
-            EditorApplication.isPlaying = false;
-            Debug.Log("Game Over");
-        }
-
-
->>>>>>> Stashed changes
     }
 
     void OnTriggerEnter2D(Collider2D other)
