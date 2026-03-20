@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEditor;
 using TMPro;
 using Unity.VisualScripting;
 public class HealthBarScript : MonoBehaviour
@@ -25,6 +26,12 @@ public class HealthBarScript : MonoBehaviour
         healthBarSlider.value = currHealth;
 
         currHealth = Mathf.Clamp(currHealth, 0, maxHealth);
+
+        if (currHealth == 0) {
+            EditorApplication.isPlaying = false;
+            Debug.Log("Game Over");
+
+        }
     }
 
     void OnTriggerEnter2D(Collider2D other)
