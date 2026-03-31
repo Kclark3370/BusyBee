@@ -32,4 +32,9 @@ public class ScoreManager : MonoBehaviour
         scoreText.text = score.ToString() + " POINTS";
         highscoreText.text = "HIGHSCORE: " + highscore.ToString();
     }
+
+    void OnCollisionEnter(Collision col)
+    {
+        
+    }
 }
