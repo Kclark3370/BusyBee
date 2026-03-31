@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a362a646c259dd8419bd65bb5b113eec
+guid: 29d5b05f3f8451d47955595206ed3814
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4321061048600651713
-    second: beetop_0
+      213: 4850804609838234716
+    second: BeeFrame1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: beetop_0
+      name: BeeFrame1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1000
-        height: 821
+        x: 332
+        y: 124
+        width: 1256
+        height: 869
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f389169ced18804c0800000000000000
-      internalID: -4321061048600651713
+      spriteID: c5c3c3c8715815340800000000000000
+      internalID: 4850804609838234716
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      beetop_0: -4321061048600651713
+      BeeFrame1_0: 4850804609838234716
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
