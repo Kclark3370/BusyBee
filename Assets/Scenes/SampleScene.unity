@@ -147,18 +147,22 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 5710786089494157787, guid: 7d32430a2acaf9b4bb95defaad291e5c, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-    - target: {fileID: 7648455449482157419, guid: 7d32430a2acaf9b4bb95defaad291e5c, type: 3}
-      propertyPath: model
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 7648455449482157419, guid: 7d32430a2acaf9b4bb95defaad291e5c, type: 3}
       propertyPath: turnAmp
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 7648455449482157419, guid: 7d32430a2acaf9b4bb95defaad291e5c, type: 3}
+      propertyPath: spritesArray.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7648455449482157419, guid: 7d32430a2acaf9b4bb95defaad291e5c, type: 3}
+      propertyPath: 'spritesArray.Array.data[0]'
+      value: 
+      objectReference: {fileID: 4850804609838234716, guid: 29d5b05f3f8451d47955595206ed3814, type: 3}
+    - target: {fileID: 7648455449482157419, guid: 7d32430a2acaf9b4bb95defaad291e5c, type: 3}
+      propertyPath: 'spritesArray.Array.data[1]'
+      value: 
+      objectReference: {fileID: -1783657749307262528, guid: 0080d2513b06f854db0ece259e948730, type: 3}
     - target: {fileID: 8458298740751755235, guid: 7d32430a2acaf9b4bb95defaad291e5c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
