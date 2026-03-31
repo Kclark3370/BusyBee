@@ -29,8 +29,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.91795, y: -0.34138, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -80,7 +80,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 4850804609838234716, guid: 29d5b05f3f8451d47955595206ed3814, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -131,9 +131,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4398668d5fc47a94e962fde883f7a976, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Character
-  spritesArray:
-  - {fileID: 4850804609838234716, guid: 29d5b05f3f8451d47955595206ed3814, type: 3}
-  - {fileID: -1783657749307262528, guid: 0080d2513b06f854db0ece259e948730, type: 3}
-  speed: 0.5
-  turnSpeed: 1
-  turnAmp: 2
+  speed: 5
+  turnSpeed: 2.5
