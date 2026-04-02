@@ -15,6 +15,9 @@ public class ScoreManager : MonoBehaviour
 
     int score = 0;
     int highscore = 0;
+    public GameObject Player;
+    public GameObject Flowers;
+    private bool isColliding = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -31,5 +34,10 @@ public class ScoreManager : MonoBehaviour
         }
         scoreText.text = score.ToString() + " POINTS";
         highscoreText.text = "HIGHSCORE: " + highscore.ToString();
+    }
+
+    void OnCollisionEnter(Collision col)
+    {
+        
     }
 }
