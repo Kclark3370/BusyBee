@@ -1283,8 +1283,24 @@ PrefabInstance:
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7648455449482157419, guid: 7d32430a2acaf9b4bb95defaad291e5c, type: 3}
+      propertyPath: stamina
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 7648455449482157419, guid: 7d32430a2acaf9b4bb95defaad291e5c, type: 3}
       propertyPath: turnSpeed
       value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7648455449482157419, guid: 7d32430a2acaf9b4bb95defaad291e5c, type: 3}
+      propertyPath: maxStamina
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 7648455449482157419, guid: 7d32430a2acaf9b4bb95defaad291e5c, type: 3}
+      propertyPath: staminaGainRate
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7648455449482157419, guid: 7d32430a2acaf9b4bb95defaad291e5c, type: 3}
+      propertyPath: staminaDrainRate
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 8458298740751755235, guid: 7d32430a2acaf9b4bb95defaad291e5c, type: 3}
       propertyPath: m_LocalScale.x

@@ -30,20 +30,20 @@ public class Character : MonoBehaviour
         input.Normalize();
         transform.Translate(transform.up * speed * Time.deltaTime, Space.World);
 
-        if (Input.GetKey("space") && stamina >= 0)
+        if (Input.GetKey("space") && stamina > 0)
         {
-            speed = 20;
+            speed = sprintSpeed;
             turnSpeed = 1.5f;
             stamina -= staminaDrainRate * Time.deltaTime;
             
         }
-        if (stamina < maxStamina)
+        else if (stamina < maxStamina)
         {
             stamina += staminaGainRate * Time.deltaTime;
+            turnSpeed = 3.5f;
+            speed = 10;
         }
         stamina = Mathf.Clamp(stamina,0,maxStamina);
-        turnSpeed = 3.5f;
-        speed = 10;
     }
 
     void FixedUpdate()
