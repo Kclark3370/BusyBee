@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 09c90b704bec55147b6ddd241a3512e9
+guid: fa8216ef2c074e24fa7a7d58055ecb8c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6937817954938267909
-    second: 2_0
+      213: 1196457451817484290
+    second: CancelButton_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 2_0
+      name: CancelButton_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 164
-        width: 404
-        height: 86
+        x: 299
+        y: 175
+        width: 60
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5092c600ca4184060800000000000000
-      internalID: 6937817954938267909
+      spriteID: 200437c96bbaa9010800000000000000
+      internalID: 1196457451817484290
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      2_0: 6937817954938267909
+      CancelButton_0: 1196457451817484290
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
