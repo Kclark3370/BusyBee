@@ -483,6 +483,8 @@ MonoBehaviour:
   highscoreText: {fileID: 1921259509}
   repeatRate: 2
   startDelay: 1
+  Player: {fileID: 0}
+  Flowers: {fileID: 0}
 --- !u!114 &822725104
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1086,6 +1088,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2545178553150469588, guid: 95da0d32d2d182343a949dc760d4585e, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2545178553150469588, guid: 95da0d32d2d182343a949dc760d4585e, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2545178553150469588, guid: 95da0d32d2d182343a949dc760d4585e, type: 3}
+      propertyPath: m_Color.r
+      value: 0.05724919
+      objectReference: {fileID: 0}
     - target: {fileID: 3968172711815351223, guid: 95da0d32d2d182343a949dc760d4585e, type: 3}
       propertyPath: m_Name
       value: HealthBar
