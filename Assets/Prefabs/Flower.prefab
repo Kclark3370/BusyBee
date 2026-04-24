@@ -104,7 +104,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc978213a6a699e4cb4cfa8b79ca4056, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  player: {fileID: 0}
+  player: {fileID: 4661546140535896227, guid: 032555f3b11d00641bcad85f61ee222d, type: 3}
   scoreText: {fileID: 0}
 --- !u!61 &916692646694015548
 BoxCollider2D:
