@@ -10,9 +10,9 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadSceneAsync(1);
     }
 
-    /*public void Quit()
+    public void Quit()
     {
         EditorApplication.isPlaying = false;
-    }*/
+    }
 
 }
