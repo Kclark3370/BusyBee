@@ -14,7 +14,6 @@ public class ScoreItem : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("collision");
         if (collision.gameObject == player)
         {
             Debug.Log("player collided");
