@@ -1,11 +1,33 @@
+using System.Collections.Generic;
 using UnityEngine;
+using TMPro; 
 
-public class FullScreenToggle : MonoBehaviour
+public class ScreenModeManager : MonoBehaviour
 {
-    public void Fullscreen(bool is_fullscreen)
-    {
-        Screen.fullScreen = is_fullscreen;
+    public TMP_Dropdown dropdown; 
 
-        Debug.Log("Fullscreen is " + is_fullscreen);
+    void Start()
+    {
+        List<string> options = new List<string> { "Exe. Fullscreen", "Fullscreen", "Windowed" };
+        dropdown.ClearOptions();
+        dropdown.AddOptions(options);
+
+        dropdown.onValueChanged.AddListener(SetScreenMode);
+    }
+
+    public void SetScreenMode(int index)
+    {
+        switch (index)
+        {
+            case 0:
+                Screen.fullScreenMode = FullScreenMode.ExclusiveFullScreen;
+                break;
+            case 1:
+                Screen.fullScreenMode = FullScreenMode.FullScreenWindow;
+                break;
+            case 2:
+                Screen.fullScreenMode = FullScreenMode.Windowed;
+                break;
+        }
     }
 }
