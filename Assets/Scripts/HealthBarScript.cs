@@ -28,7 +28,7 @@ public class HealthBarScript : MonoBehaviour
         currHealth = Mathf.Clamp(currHealth, 0, maxHealth);
 
         if (currHealth == 0) {
-            EditorApplication.isPlaying = false;
+            Application.Quit();
             Debug.Log("Game Over");
 
         }

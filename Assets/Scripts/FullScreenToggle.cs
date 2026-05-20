@@ -8,7 +8,7 @@ public class ScreenModeManager : MonoBehaviour
 
     void Start()
     {
-        List<string> options = new List<string> { "Exe. Fullscreen", "Fullscreen", "Windowed" };
+        List<string> options = new List<string> { "Fullscreen", "Windowed" };
         dropdown.ClearOptions();
         dropdown.AddOptions(options);
 
@@ -19,13 +19,11 @@ public class ScreenModeManager : MonoBehaviour
     {
         switch (index)
         {
+
             case 0:
-                Screen.fullScreenMode = FullScreenMode.ExclusiveFullScreen;
-                break;
-            case 1:
                 Screen.fullScreenMode = FullScreenMode.FullScreenWindow;
                 break;
-            case 2:
+            case 1:
                 Screen.fullScreenMode = FullScreenMode.Windowed;
                 break;
         }
