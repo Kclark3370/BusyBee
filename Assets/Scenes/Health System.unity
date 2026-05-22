@@ -1737,6 +1737,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 370855811636142123, guid: 95da0d32d2d182343a949dc760d4585e, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: c67dea473302adb44b7e1a91a1ed0bbe, type: 2}
+    - target: {fileID: 370855811636142123, guid: 95da0d32d2d182343a949dc760d4585e, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 4574310250426272624, guid: c67dea473302adb44b7e1a91a1ed0bbe, type: 2}
+    - target: {fileID: 370855811636142123, guid: 95da0d32d2d182343a949dc760d4585e, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3968172711815351223, guid: 95da0d32d2d182343a949dc760d4585e, type: 3}
       propertyPath: m_Name
       value: HealthBar
