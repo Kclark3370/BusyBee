@@ -12,7 +12,7 @@ public class MainMenu : MonoBehaviour
 
     public void Quit()
     {
-        EditorApplication.isPlaying = false;
+        Application.Quit();
     }
 
 }
