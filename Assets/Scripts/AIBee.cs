@@ -1,6 +1,8 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using NUnit.Framework;
+using NUnit.Framework.Internal.Filters;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.AI;
@@ -24,17 +26,18 @@ public class AIBee : MonoBehaviour
     public string targetTag = "Flower";
     public GameObject target;
     public GameObject closest;
+    public GameObject searchLocation;
     [Space]
     public List<GameObject> objectsInRange = new List<GameObject>();
 
     NavMeshAgent agent;
 
-    public bool hasCollectedFlower;
+    public bool isSearching;
 
 
     private void Start()
     {
-        hasCollectedFlower = false;
+        isSearching = false;
         agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false;
         agent.updateUpAxis = false;
@@ -43,15 +46,10 @@ public class AIBee : MonoBehaviour
     {
         GetComponent<CircleCollider2D>().radius = scanRadius;
         CalculateDesire(transform.position);
-        if (pollen >= 5)
-        {
-            target = home;
-            if (home.GetComponent<BoxCollider2D>().IsTouching(GetComponent<BoxCollider2D>()))
-            {
-                pollen = 0;
-            }
-        }
         agent.SetDestination(target.transform.position);
+        Vector3 pos = transform.position;
+        pos.z = 0f;
+        transform.position = pos;
     }
 
     void OnTriggerEnter2D(Collider2D other) 
@@ -75,11 +73,47 @@ public class AIBee : MonoBehaviour
             Destroy(collision.gameObject);
         }
     }
+
+    Vector3 GetRandomNavMeshPoint(Vector3 center, float range)
+{
+    for (int i = 0; i < 30; i++) // try multiple times
+    {
+        Vector3 randomPoint = center + new Vector3(
+            Random.Range(-range, range),
+            Random.Range(-range, range),
+            0f
+        );
+
+        NavMeshHit hit;
+
+        // Check if point is on NavMesh
+        if (NavMesh.SamplePosition(randomPoint, out hit, 5f, NavMesh.AllAreas))
+        {
+            return hit.position;
+        }
+    }
+
+    // fallback if nothing found
+    return center;
+}
+
     void CalculateDesire(Vector2 playerLocation)
     {
+
+        if (pollen >= 5)
+        {
+            target = home;
+            if (home.GetComponent<BoxCollider2D>().IsTouching(GetComponent<BoxCollider2D>()))
+            {
+                pollen = 0;
+                isSearching = false;
+            }
+        }
+
         float closestDist = scanRadius;
         if (objectsInRange.Count > 0)
         {
+            isSearching = false;
             foreach(GameObject flower in objectsInRange)
             {
             float objectDistance = Vector2.Distance(playerLocation,flower.transform.position);
@@ -91,9 +125,18 @@ public class AIBee : MonoBehaviour
             }
             target = closest;
         }
-        else
+        if (objectsInRange.Count <= 0 && isSearching == false)
         {
-            target = home;
+            isSearching=true;
+            searchLocation.transform.position = GetRandomNavMeshPoint(playerLocation, 100f);
+            target = searchLocation;
+            agent.SetDestination(target.transform.position);
+        }
+        if (Vector2.Distance(transform.position,searchLocation.transform.position) < 1f)
+            {
+                searchLocation.transform.position = GetRandomNavMeshPoint(playerLocation, 100f);
+            }
         }
     }
-}
+
+
