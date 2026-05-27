@@ -18,6 +18,7 @@ public class ScoreItem : MonoBehaviour
         {
             Debug.Log("player collided");
             score+=1;
+            Destroy(this);
         }
     }
 }

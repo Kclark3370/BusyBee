@@ -581,11 +581,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 650676637415150001, guid: 1de0c71740911f944bac26e9f2175225, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 42.2
+      value: 76.1
       objectReference: {fileID: 0}
     - target: {fileID: 650676637415150001, guid: 1de0c71740911f944bac26e9f2175225, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 20.8
+      value: -2.6
       objectReference: {fileID: 0}
     - target: {fileID: 650676637415150001, guid: 1de0c71740911f944bac26e9f2175225, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2470,11 +2470,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 650676637415150001, guid: 1de0c71740911f944bac26e9f2175225, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 12.6
+      value: 26.98015
       objectReference: {fileID: 0}
     - target: {fileID: 650676637415150001, guid: 1de0c71740911f944bac26e9f2175225, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 32.8
+      value: -18.85103
       objectReference: {fileID: 0}
     - target: {fileID: 650676637415150001, guid: 1de0c71740911f944bac26e9f2175225, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2514,7 +2514,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4338477944788099303, guid: 1de0c71740911f944bac26e9f2175225, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2612,7 +2612,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AIBee
   speed: 5
-  scanRadius: 50
+  scanRadius: 150
   pollen: 0
   home: {fileID: 822087003}
   targetTag: Flower
