@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1059019598216148548}
   - component: {fileID: 4672774579979095310}
   - component: {fileID: 444533689179480095}
+  - component: {fileID: 1619894597125363501}
   m_Layer: 0
   m_Name: Hazard
   m_TagString: Untagged
@@ -185,3 +186,19 @@ PolygonCollider2D:
       - {x: 17.054886, y: -11.0331135}
       - {x: 17.524857, y: -10.786939}
   m_UseDelaunayMesh: 0
+--- !u!114 &1619894597125363501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8917503366673717661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: NavMeshPlus::NavMeshPlus.Components.NavMeshModifier
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
