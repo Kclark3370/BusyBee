@@ -550,6 +550,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1249852088646073699, guid: 7e2937a5fae29944585f27f8f44bb6c8, type: 3}
   m_PrefabInstance: {fileID: 1255902732}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &259887950 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2007875028358552955, guid: 95da0d32d2d182343a949dc760d4585e, type: 3}
+  m_PrefabInstance: {fileID: 1080076292}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
 --- !u!1001 &276717453
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19865,6 +19876,17 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.155
+--- !u!114 &947711422 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3590816847214211737, guid: 95da0d32d2d182343a949dc760d4585e, type: 3}
+  m_PrefabInstance: {fileID: 1080076292}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Slider
 --- !u!1001 &973324992
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19952,6 +19974,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4661546140535896227, guid: 032555f3b11d00641bcad85f61ee222d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 973324994}
+    - targetCorrespondingSourceObject: {fileID: 4661546140535896227, guid: 032555f3b11d00641bcad85f61ee222d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 973324995}
   m_SourcePrefab: {fileID: 100100000, guid: 032555f3b11d00641bcad85f61ee222d, type: 3}
 --- !u!1 &973324993 stripped
 GameObject:
@@ -19980,6 +20005,24 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &973324995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 973324993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fcabd2a11c0a054e8252f83bc7641aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HealthBarScript
+  healthBarSlider: {fileID: 947711422}
+  healthBarValueText: {fileID: 259887950}
+  player: {fileID: 973324993}
+  enemy1: {fileID: 8917503366673717661, guid: 56ca7e2531ac04c42be37a88e17788cf, type: 3}
+  maxHealth: 100
+  currHealth: 100
 --- !u!1001 &974593018
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21210,7 +21253,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
