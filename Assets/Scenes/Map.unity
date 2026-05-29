@@ -325,6 +325,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4633631012847688427, guid: 7e2937a5fae29944585f27f8f44bb6c8, type: 3}
   m_PrefabInstance: {fileID: 81440216}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &98391036 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8917503366673717661, guid: 56ca7e2531ac04c42be37a88e17788cf, type: 3}
+  m_PrefabInstance: {fileID: 1109217525}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &115499669 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1249852088646073699, guid: 7e2937a5fae29944585f27f8f44bb6c8, type: 3}
@@ -673,7 +678,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -817,7 +822,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -896,6 +901,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 1059019598216148548, guid: 56ca7e2531ac04c42be37a88e17788cf, type: 3}
   m_PrefabInstance: {fileID: 304085491}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &330998728 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8917503366673717661, guid: 56ca7e2531ac04c42be37a88e17788cf, type: 3}
+  m_PrefabInstance: {fileID: 1694257160}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &338136507
 GameObject:
@@ -1023,6 +1033,17 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &351743610 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2007875028358552955, guid: 95da0d32d2d182343a949dc760d4585e, type: 3}
+  m_PrefabInstance: {fileID: 1080076292}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
 --- !u!1001 &392168334
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1209,6 +1230,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4633631012847688427, guid: 7e2937a5fae29944585f27f8f44bb6c8, type: 3}
   m_PrefabInstance: {fileID: 429907574}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &435721636 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8917503366673717661, guid: 56ca7e2531ac04c42be37a88e17788cf, type: 3}
+  m_PrefabInstance: {fileID: 790684803}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &441849605
 GameObject:
   m_ObjectHideFlags: 0
@@ -1243,8 +1269,6 @@ Transform:
   - {fileID: 1694257161}
   - {fileID: 1426161157}
   - {fileID: 304085492}
-  - {fileID: 1009710908}
-  - {fileID: 1737152725}
   - {fileID: 853828438}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1659,7 +1683,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -1967,7 +1991,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -2194,7 +2218,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -2323,7 +2347,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -2467,7 +2491,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -2508,7 +2532,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -19462,7 +19486,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -19503,7 +19527,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -19632,7 +19656,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -19673,7 +19697,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -19802,7 +19826,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -19843,7 +19867,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -19884,7 +19908,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -19977,6 +20001,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4661546140535896227, guid: 032555f3b11d00641bcad85f61ee222d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 973324994}
+    - targetCorrespondingSourceObject: {fileID: 4661546140535896227, guid: 032555f3b11d00641bcad85f61ee222d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 973324995}
   m_SourcePrefab: {fileID: 100100000, guid: 032555f3b11d00641bcad85f61ee222d, type: 3}
 --- !u!1 &973324993 stripped
 GameObject:
@@ -20005,6 +20032,30 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &973324995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 973324993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fcabd2a11c0a054e8252f83bc7641aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HealthBarScript
+  healthBarSlider: {fileID: 1848589457}
+  healthBarValueText: {fileID: 351743610}
+  player: {fileID: 973324993}
+  enemy1: {fileID: 435721636}
+  enemy2: {fileID: 98391036}
+  enemy3: {fileID: 330998728}
+  enemy4: {fileID: 1905002232}
+  enemy5: {fileID: 1964844187}
+  enemy6: {fileID: 0}
+  enemy7: {fileID: 0}
+  maxHealth: 100
+  currHealth: 100
 --- !u!1001 &974593018
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20128,89 +20179,12 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0.00000047683716, y: 0}
   m_Radius: 0.15
---- !u!1001 &1009710907
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 441849606}
-    m_Modifications:
-    - target: {fileID: 7645394303084376128, guid: 689033dac3fefb84a9c8739408138f84, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 3.7025871
-      objectReference: {fileID: 0}
-    - target: {fileID: 7645394303084376128, guid: 689033dac3fefb84a9c8739408138f84, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 18.501463
-      objectReference: {fileID: 0}
-    - target: {fileID: 7645394303084376128, guid: 689033dac3fefb84a9c8739408138f84, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 5.851117
-      objectReference: {fileID: 0}
-    - target: {fileID: 7645394303084376128, guid: 689033dac3fefb84a9c8739408138f84, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -62.9743
-      objectReference: {fileID: 0}
-    - target: {fileID: 7645394303084376128, guid: 689033dac3fefb84a9c8739408138f84, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 166.4336
-      objectReference: {fileID: 0}
-    - target: {fileID: 7645394303084376128, guid: 689033dac3fefb84a9c8739408138f84, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7645394303084376128, guid: 689033dac3fefb84a9c8739408138f84, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7645394303084376128, guid: 689033dac3fefb84a9c8739408138f84, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7645394303084376128, guid: 689033dac3fefb84a9c8739408138f84, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7645394303084376128, guid: 689033dac3fefb84a9c8739408138f84, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7645394303084376128, guid: 689033dac3fefb84a9c8739408138f84, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7645394303084376128, guid: 689033dac3fefb84a9c8739408138f84, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7645394303084376128, guid: 689033dac3fefb84a9c8739408138f84, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8624754327119064213, guid: 689033dac3fefb84a9c8739408138f84, type: 3}
-      propertyPath: m_Name
-      value: Hazard 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8624754327119064213, guid: 689033dac3fefb84a9c8739408138f84, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1154050332}
-  m_SourcePrefab: {fileID: 100100000, guid: 689033dac3fefb84a9c8739408138f84, type: 3}
---- !u!4 &1009710908 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7645394303084376128, guid: 689033dac3fefb84a9c8739408138f84, type: 3}
-  m_PrefabInstance: {fileID: 1009710907}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1024949501 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1249852088646073699, guid: 7e2937a5fae29944585f27f8f44bb6c8, type: 3}
@@ -20251,7 +20225,6 @@ Transform:
   - {fileID: 529649751}
   - {fileID: 1932658469}
   - {fileID: 473098221}
-  - {fileID: 9144655252859890581}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1080076292
@@ -20455,7 +20428,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -20606,7 +20579,7 @@ PrefabInstance:
     - target: {fileID: 5453712595613354609, guid: aab37e2ed490933468f0dfba4ca5337d, type: 3}
       propertyPath: searchLocation
       value: 
-      objectReference: {fileID: 1243749649}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20740,38 +20713,12 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: -0.00000047683716}
   m_Radius: 0.155
---- !u!1 &1154050330 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8624754327119064213, guid: 689033dac3fefb84a9c8739408138f84, type: 3}
-  m_PrefabInstance: {fileID: 1009710907}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &1154050332
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1154050330}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 0.2}
-  m_Center: {x: -0.0000019073486, y: 0, z: 0}
 --- !u!1001 &1160129254
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20895,7 +20842,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -21024,17 +20971,12 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.16
---- !u!1 &1203514887 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8624754327119064213, guid: 6ee2e1a532f99f547b00b0c37f27ab66, type: 3}
-  m_PrefabInstance: {fileID: 9144655252859890580}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1225552359
 GameObject:
   m_ObjectHideFlags: 0
@@ -21269,17 +21211,12 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0.00000023841858, y: 0}
   m_Radius: 0.215
---- !u!1 &1303678561 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8624754327119064213, guid: 689033dac3fefb84a9c8739408138f84, type: 3}
-  m_PrefabInstance: {fileID: 1737152724}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1305261411
 GameObject:
   m_ObjectHideFlags: 0
@@ -21540,7 +21477,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -21762,7 +21699,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -21891,7 +21828,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -22094,7 +22031,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -22223,7 +22160,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -22352,7 +22289,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -22653,7 +22590,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -22782,7 +22719,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -22823,7 +22760,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -22952,7 +22889,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -23296,7 +23233,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -23523,7 +23460,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -23564,7 +23501,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -23857,7 +23794,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -23898,7 +23835,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -24027,7 +23964,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -24140,128 +24077,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1001 &1737152724
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 441849606}
-    m_Modifications:
-    - target: {fileID: 7645394303084376128, guid: 689033dac3fefb84a9c8739408138f84, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 3.7025871
-      objectReference: {fileID: 0}
-    - target: {fileID: 7645394303084376128, guid: 689033dac3fefb84a9c8739408138f84, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 37.629356
-      objectReference: {fileID: 0}
-    - target: {fileID: 7645394303084376128, guid: 689033dac3fefb84a9c8739408138f84, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 5.851117
-      objectReference: {fileID: 0}
-    - target: {fileID: 7645394303084376128, guid: 689033dac3fefb84a9c8739408138f84, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -11.5408
-      objectReference: {fileID: 0}
-    - target: {fileID: 7645394303084376128, guid: 689033dac3fefb84a9c8739408138f84, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 158.5037
-      objectReference: {fileID: 0}
-    - target: {fileID: 7645394303084376128, guid: 689033dac3fefb84a9c8739408138f84, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7645394303084376128, guid: 689033dac3fefb84a9c8739408138f84, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7645394303084376128, guid: 689033dac3fefb84a9c8739408138f84, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7645394303084376128, guid: 689033dac3fefb84a9c8739408138f84, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7645394303084376128, guid: 689033dac3fefb84a9c8739408138f84, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7645394303084376128, guid: 689033dac3fefb84a9c8739408138f84, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7645394303084376128, guid: 689033dac3fefb84a9c8739408138f84, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7645394303084376128, guid: 689033dac3fefb84a9c8739408138f84, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8624754327119064213, guid: 689033dac3fefb84a9c8739408138f84, type: 3}
-      propertyPath: m_Name
-      value: Hazard 1 (1)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8624754327119064213, guid: 689033dac3fefb84a9c8739408138f84, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1737152728}
-    - targetCorrespondingSourceObject: {fileID: 8624754327119064213, guid: 689033dac3fefb84a9c8739408138f84, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1737152727}
-  m_SourcePrefab: {fileID: 100100000, guid: 689033dac3fefb84a9c8739408138f84, type: 3}
---- !u!4 &1737152725 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7645394303084376128, guid: 689033dac3fefb84a9c8739408138f84, type: 3}
-  m_PrefabInstance: {fileID: 1737152724}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &1737152727
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1303678561}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 0.2}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &1737152728
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1303678561}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 0.2}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1770409185
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24385,7 +24200,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -24426,7 +24241,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -24467,7 +24282,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -24596,12 +24411,23 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.155
+--- !u!114 &1848589457 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3590816847214211737, guid: 95da0d32d2d182343a949dc760d4585e, type: 3}
+  m_PrefabInstance: {fileID: 1080076292}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Slider
 --- !u!1 &1885142081
 GameObject:
   m_ObjectHideFlags: 0
@@ -24860,6 +24686,11 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3478760166384871138, guid: 95fb9ed182e76e447b3a6c2f70e279c7, type: 3}
   m_PrefabInstance: {fileID: 1893454486}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1905002232 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8917503366673717661, guid: 56ca7e2531ac04c42be37a88e17788cf, type: 3}
+  m_PrefabInstance: {fileID: 1426161156}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1905954149 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1249852088646073699, guid: 7e2937a5fae29944585f27f8f44bb6c8, type: 3}
@@ -24895,7 +24726,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -25069,6 +24900,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1059019598216148548, guid: bac08773e99d80d469365e34bd4dc512, type: 3}
   m_PrefabInstance: {fileID: 1932658468}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1964844187 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8917503366673717661, guid: 56ca7e2531ac04c42be37a88e17788cf, type: 3}
+  m_PrefabInstance: {fileID: 304085491}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1982669688 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1249852088646073699, guid: 7e2937a5fae29944585f27f8f44bb6c8, type: 3}
@@ -25104,7 +24940,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -25238,104 +25074,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1059019598216148548, guid: bac08773e99d80d469365e34bd4dc512, type: 3}
   m_PrefabInstance: {fileID: 7730454916047380259}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &9144655252859890580
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1060995606}
-    m_Modifications:
-    - target: {fileID: 7645394303084376128, guid: 6ee2e1a532f99f547b00b0c37f27ab66, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 5.68199
-      objectReference: {fileID: 0}
-    - target: {fileID: 7645394303084376128, guid: 6ee2e1a532f99f547b00b0c37f27ab66, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 40.845676
-      objectReference: {fileID: 0}
-    - target: {fileID: 7645394303084376128, guid: 6ee2e1a532f99f547b00b0c37f27ab66, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 5.851117
-      objectReference: {fileID: 0}
-    - target: {fileID: 7645394303084376128, guid: 6ee2e1a532f99f547b00b0c37f27ab66, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -131.3496
-      objectReference: {fileID: 0}
-    - target: {fileID: 7645394303084376128, guid: 6ee2e1a532f99f547b00b0c37f27ab66, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 79.0765
-      objectReference: {fileID: 0}
-    - target: {fileID: 7645394303084376128, guid: 6ee2e1a532f99f547b00b0c37f27ab66, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7645394303084376128, guid: 6ee2e1a532f99f547b00b0c37f27ab66, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7645394303084376128, guid: 6ee2e1a532f99f547b00b0c37f27ab66, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7645394303084376128, guid: 6ee2e1a532f99f547b00b0c37f27ab66, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7645394303084376128, guid: 6ee2e1a532f99f547b00b0c37f27ab66, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7645394303084376128, guid: 6ee2e1a532f99f547b00b0c37f27ab66, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7645394303084376128, guid: 6ee2e1a532f99f547b00b0c37f27ab66, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7645394303084376128, guid: 6ee2e1a532f99f547b00b0c37f27ab66, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8624754327119064213, guid: 6ee2e1a532f99f547b00b0c37f27ab66, type: 3}
-      propertyPath: m_Name
-      value: Square
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8624754327119064213, guid: 6ee2e1a532f99f547b00b0c37f27ab66, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 9144655252859890583}
-  m_SourcePrefab: {fileID: 100100000, guid: 6ee2e1a532f99f547b00b0c37f27ab66, type: 3}
---- !u!4 &9144655252859890581 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7645394303084376128, guid: 6ee2e1a532f99f547b00b0c37f27ab66, type: 3}
-  m_PrefabInstance: {fileID: 9144655252859890580}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &9144655252859890583
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1203514887}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.99999994, y: 0.99999994, z: 0.2}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -25349,5 +25087,5 @@ SceneRoots:
   - {fileID: 2049954546}
   - {fileID: 1127211222}
   - {fileID: 117369765}
-  - {fileID: 1243749650}
   - {fileID: 973324992}
+  - {fileID: 1305261414}

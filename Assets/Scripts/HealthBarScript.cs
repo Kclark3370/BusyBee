@@ -10,6 +10,12 @@ public class HealthBarScript : MonoBehaviour
     public TextMeshProUGUI healthBarValueText;
     public GameObject player;
     public GameObject enemy1;
+    public GameObject enemy2;  
+    public GameObject enemy3;
+    public GameObject enemy4;
+    public GameObject enemy5;
+    public GameObject enemy6;
+    public GameObject enemy7;
     public int maxHealth;
     public int currHealth;
 
@@ -34,9 +40,39 @@ public class HealthBarScript : MonoBehaviour
         }
     }
 
-    void OnTriggerEnter2D(Collider2D other)
+    void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject == enemy1)
+        {
+            Debug.Log("Damage");
+            currHealth = currHealth - 10;
+        }
+        if (other.gameObject == enemy2)
+        {
+            Debug.Log("Damage");
+            currHealth = currHealth - 10;
+        }
+        if (other.gameObject == enemy3)
+        {
+            Debug.Log("Damage");
+            currHealth = currHealth - 10;
+        }
+        if (other.gameObject == enemy4)
+        {
+            Debug.Log("Damage");
+            currHealth = currHealth - 10;
+        }
+        if (other.gameObject == enemy5)
+        {
+            Debug.Log("Damage");
+            currHealth = currHealth - 10;
+        }
+        if (other.gameObject == enemy6)
+        {
+            Debug.Log("Damage");
+            currHealth = currHealth - 10;
+        }
+        if (other.gameObject == enemy7)
         {
             Debug.Log("Damage");
             currHealth = currHealth - 10;
