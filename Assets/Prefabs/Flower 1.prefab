@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 650676637415150001}
   - component: {fileID: 6525898805123765454}
-  - component: {fileID: 281484603810339348}
   - component: {fileID: 2605130840700109532}
   m_Layer: 0
   m_Name: Flower 1
@@ -92,20 +91,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &281484603810339348
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4338477944788099303}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc978213a6a699e4cb4cfa8b79ca4056, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  player: {fileID: 0}
-  scoreText: {fileID: 0}
 --- !u!61 &2605130840700109532
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -150,5 +135,5 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 2.57, y: 2.56}
+  m_Size: {x: 3, y: 3}
   m_EdgeRadius: 0
