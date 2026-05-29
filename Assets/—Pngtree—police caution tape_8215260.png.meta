@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: baef0fb67bd29c44697d66fa45a158a6
+guid: 4c8452b03f865664ba0c678c8689942b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4333330589012360422
-    second: vecteezy_neumorphic-rectangle-blank-banner_11888126_0
+      213: 5255031734502339936
+    second: "\u2014Pngtree\u2014police caution tape_8215260_0"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,31 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: vecteezy_neumorphic-rectangle-blank-banner_11888126_0
+      name: "\u2014Pngtree\u2014police caution tape_8215260_0"
       rect:
         serializedVersion: 2
-        x: 407
-        y: 427
-        width: 3763
-        height: 2180
+        x: 0
+        y: 275
+        width: 1280
+        height: 86
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 42, y: 23, z: 15, w: 36}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline:
-      - - {x: 1917, y: 1130.5}
-        - {x: -1917, y: 1130.5}
-        - {x: -1917, y: -1130.262}
-        - {x: 1917, y: -1130.262}
-      physicsShape:
-      - - {x: 1917, y: 1130.5}
-        - {x: -1917, y: 1130.5}
-        - {x: -1917, y: -1130.262}
-        - {x: 1917, y: -1130.262}
-      tessellationDetail: 0
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
       bones: []
-      spriteID: a13859bc9caecd3c0800000000000000
-      internalID: -4333330589012360422
+      spriteID: 065ba6a258f9de840800000000000000
+      internalID: 5255031734502339936
       vertices: []
       indices: 
       edges: []
@@ -146,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 934786fb635c21e4dbf7e7103edae114
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -156,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      vecteezy_neumorphic-rectangle-blank-banner_11888126_0: -4333330589012360422
+      "\u2014Pngtree\u2014police caution tape_8215260_0": 5255031734502339936
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
