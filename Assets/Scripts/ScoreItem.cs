@@ -3,21 +3,20 @@ using TMPro;
 
 public class ScoreItem : MonoBehaviour
 {
-    public GameObject player;
+    public Character player;
 
     public TextMeshProUGUI scoreText;
-    private int score = 0;
     void Update()
     {
-        scoreText.text = score.ToString() + " POINTS";
+        scoreText.text = player.score.ToString() + " POINTS";
     }
 
-    void OnTriggerEnter2D(Collider2D collision)
+    void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject == player)
+        if (collision.gameObject.CompareTag("Player"))
         {
             Debug.Log("player collided");
-            score+=1;
+            player.score+=1;
             Destroy(this);
         }
     }

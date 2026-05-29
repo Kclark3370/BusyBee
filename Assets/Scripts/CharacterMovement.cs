@@ -15,6 +15,7 @@ public class Character : MonoBehaviour
     public float staminaGainRate = 20f;
     public float maxStamina = 100f;
     public float turnSpeed = 2.5f;
+    public int score;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -49,5 +50,14 @@ public class Character : MonoBehaviour
     void FixedUpdate()
     {
         transform.Rotate(Vector3.forward,turnSpeed * -input.x);
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Flower"))
+        {
+            score += 1;
+            Destroy(collision.gameObject);
+        }
     }
 }
