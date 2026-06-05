@@ -8,7 +8,7 @@ public class ScoreItem : MonoBehaviour
     public TextMeshProUGUI scoreText;
     void Update()
     {
-        scoreText.text = player.score.ToString() + " POINTS";
+        scoreText.text = player.score.ToString() + " Pollen Collected";
     }
 
     void OnCollisionEnter2D(Collision2D collision)

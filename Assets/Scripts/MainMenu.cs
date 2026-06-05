@@ -1,13 +1,16 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEditor;
-using Unity.VisualScripting;
 
 public class MainMenu : MonoBehaviour
 {
     public void PlayGame()
     {
         SceneManager.LoadSceneAsync(1);
+    }
+
+    public void Menu()
+    {
+        SceneManager.LoadSceneAsync(0);
     }
 
     public void Quit()
